@@ -1,0 +1,24 @@
+{
+  "name": "spaceship-git-practice",
+  "version": "1.0.0",
+  "description": "Practica de GIT",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcbenito/spaceship-git-practice.git"
+  },
+  "author": "Marc Benito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcbenito/spaceship-git-practice/issues"
+  },
+  "homepage": "https://github.com/marcbenito/spaceship-git-practice#readme",
+  "dependencies": {
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  }
+}
