@@ -9,5 +9,6 @@ export abstract class  Section {
         this.name = name;
         this.priority = priority;
     }
+    abstract updateData();
     
 }

@@ -17,4 +17,8 @@ let shipParts = [
     new habitat('Habitat Oficiales', 4, 10)
 ];
  
-
+setInterval(function(){
+    console.log('updating parts');
+    
+    shipParts.forEach(part=> part.updateData());
+},1000)
