@@ -30,4 +30,17 @@ export class habitat extends Section {
         }
         
     }
+
+    public status(){
+        let status = ''
+        this.rooms.forEach(room=>{
+            if(room.temperature> 40){
+                status += `Temperature problem on Room ${room.name} temp = ${room.temperature}`
+            }
+        })
+        if(status === ''){
+            status = 'STATUS OK';
+        }
+        return status;
+    }
 }
